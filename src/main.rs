@@ -50,7 +50,7 @@ impl Index {
 async fn hello(req: HttpRequest) -> Result<HttpResponse> {
     let s = Index::from_request(req)
         .render()
-        .unwrap_or("Oops, template rendering error".to_string());
+        .unwrap_or_else(|_| "Oops, template rendering error".to_string());
     Ok(HttpResponse::Ok().content_type("text/html").body(s))
 }
 
