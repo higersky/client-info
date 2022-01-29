@@ -505,7 +505,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "client_info"
+name = "client-info"
 version = "0.1.0"
 dependencies = [
  "actix-web",
