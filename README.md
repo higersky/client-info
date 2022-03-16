@@ -13,5 +13,5 @@ You can also use curl to send a POST request to it. It will give you request inf
 If you want to specify the address, use the `--addr` option, e.g.
 
 ```bash
-$ client_info --addr 127.0.0.1:8080
+$ client-info --addr 127.0.0.1:8080
 ```
