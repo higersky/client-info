@@ -4,7 +4,7 @@ A very simple cli tool to show basic info of the client's web request
 
 ## Usage
 
-Run `client_info`, it will automatically start a web server on `0.0.0.0:8080`. 
+Run `client-info`, it will automatically start a web server on `0.0.0.0:8080`. 
 
 Open the url `http://0.0.0.0:8080/` in your web browser. It will show a simple web page with basic request information, including your IP, UserAgent and Remote Address.
 
